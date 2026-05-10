@@ -1,0 +1,115 @@
+body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+.bg-menu{
+    background-color: #8B0000;
+}
+.navbar-brand img{
+    width: 8rem;
+}
+.navbar-nav li a{
+    color: white !important;
+}
+.navbar-nav li a:hover{
+    color: white !important;
+    background-color: rgb(180, 2, 2);
+}
+.navbar-nav li{
+    padding: 0 20px !important;
+}
+form{
+    width: 200%;
+    padding: 1rem 10rem !important;
+}
+.dropdown-menu{
+    background-color: #8B0000 !important;
+}
+.dropdown-menu li a:hover{
+    color: white !important;
+    background-color: red;
+}
+.btn-azul{
+    color: white !important;
+    background-color: #00334e !important;
+}
+.btn-azul:hover{
+    color: white !important;
+    background-color: rgb(2, 2, 124) !important;
+    border: 1px solid white;
+}
+footer{
+    background-color: #8B0000;
+    color: white;
+    text-align: left;
+    padding: .8rem;
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.carrossel{
+    padding: 100px 200px 100px 200px;
+}
+
+.produtos{
+    display: flex;
+    padding: 30px;
+ 
+}
+.cardPRDT{
+    padding: 30px;
+   
+}
+
+.card{
+   
+    text-align: center;
+} 
+.card-text{
+  
+    color: black;
+}
+
+.formulario{
+    padding: 20px 120px;
+}
+
+.row{
+    margin: 0;
+    padding: 25px 20rem 25px 20rem;
+    display: flex;
+    
+
+}   
+.mb-3{
+ margin: 0;
+    padding: 15px 20rem 15px 20rem;
+}
+.botao2{
+    background-color:  #FF0000; 
+    border: none;  
+    margin: 5rem ; 
+    padding: 200px 40x 200px 40px;  
+    height: 50px;
+border-radius: 10px;
+    text-align: center;
+}
+
+.botao2:hover{
+    background-color:  #c20404; 
+    border: none; 
+    margin: 5rem ; 
+    padding: 40px 40x; 
+    color: white; }
+
+    .nav-opcoes{
+       color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    }
