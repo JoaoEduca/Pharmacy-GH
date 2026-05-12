@@ -1,0 +1,133 @@
+body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+.bg-menu{
+    background-color: #8B0000;
+}
+.navbar-brand img{
+    width: 8rem;
+}
+.navbar-nav li a{
+    color: white !important;
+}
+.navbar-nav li a:hover{
+    color: white !important;
+    background-color: rgb(180, 2, 2);
+}
+.navbar-nav li{
+    padding: 0 20px !important;
+}
+form{
+    width: 200%;
+    padding: 1rem 10rem !important;
+}
+.dropdown-menu{
+    background-color: #8B0000 !important;
+}
+.dropdown-menu li a:hover{
+    color: white !important;
+    background-color: red;
+}
+.btn-azul{
+    color: white !important;
+    background-color: #00334e !important;
+}
+.btn-azul:hover{
+    color: white !important;
+    background-color: rgb(2, 2, 124) !important;
+    border: 1px solid white;
+}
+footer{
+    background-color: #8B0000;
+    color: white;
+    text-align: left;
+    padding: .8rem;
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer{
+    background-color: #8B0000;
+    color: white;
+    text-align: left;
+    padding: .8rem;
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/***************LOGIN E CADASTRO******************/
+
+.form-control-login{
+    width: 15%;
+    border-radius: 4%;
+}
+
+.mb-3{
+    text-align: center !important;
+
+}
+
+.senha-esqueci{
+   text-align: center !important;
+}
+
+.titulo-login{
+    text-align: center !important;
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.login-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+.divider-vertical{
+    height: 320px;
+    width: 10px;
+    background-color: red;
+    border-radius: 10px;
+    margin: 0 2rem;
+}
+
+.login-wrapper input{
+    width: 200px !important;
+}
+
+.espacamentobotao{
+    margin-top: 20px !important;
+}
+
+/************** produtos *************/
+.espacamento{
+    margin: 60px 15px !important;
+}
+
+.col-sm img{
+    width: 150px !important;
+    height: 50%;
+    display: block;
+    margin: 0 auto 1rem auto;
+    object-fit: contain;
+}
+.products-main h1{
+    text-align: center;
+}
+.card{
+    margin: 5%;
+}
+.card-body {
+    height: 27rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
