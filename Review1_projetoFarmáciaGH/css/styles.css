@@ -94,35 +94,36 @@ footer {
 
 /***************LOGIN E CADASTRO******************/
 
-.form-control-login {
+.form-control-login{
     width: 15%;
     border-radius: 4%;
 }
 
-.mb-3 {
+.mb-login{
     text-align: center !important;
 
 }
 
-.senha-esqueci {
-    text-align: center !important;
+.senha-esqueci{
+   text-align: center !important;
 }
 
-.titulo-login {
+.titulo-login{
     text-align: center !important;
     font-size: 45px;
     font-weight: bold;
     margin-bottom: 30px;
 }
 
-.login-wrapper {
+.login-wrapper{
+    padding: 80px 0px 0px 0px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 5rem;
 }
-
-.divider-vertical {
+.divider-vertical{
     height: 320px;
     width: 10px;
     background-color: red;
@@ -130,15 +131,14 @@ footer {
     margin: 0 2rem;
 }
 
-.login-wrapper input {
+.login-wrapper input{
     width: 200px !important;
 }
 
-.espacamentobotao {
+.espacamentobotao{
     margin-top: 20px !important;
 }
-
-< !-- parte do Gui -->.carrossel {
+.carrossel {
     padding: 100px 200px 100px 200px;
 }
 
@@ -168,7 +168,7 @@ footer {
 }
 
 
-.mb-3 {
+.mb-cadastro {
     margin: 0;
     padding: 15px 20rem 15px 20rem;
 }
@@ -203,4 +203,7 @@ footer {
     display: flex;
 
 
+}
+.direita{
+    text-align: left;
 }
